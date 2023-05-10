@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="dist/ico.png">
+	<title>Meu site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/dd8c49730d.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+    <header>
+        <nav>
+            <img src="dist/logo.png" class="logo">
+            <ul>
+                <li><a href="https://www.toyota.com.br/" target="_blank">Inicio</a></li>
+                <li><a href="https://www.toyota.com.br/mundo-toyota/sobre-a-toyota" target="_blank">Sobre</a></li>
+                <li><a href="https://www.toyota.com.br/contato" target="_blank">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="section1">
+            <img src="dist/fundo1.gif" alt="GIF de fundo" id="gif-background">
+        </section>
+        <section id="section2">
+          <hr>
+            <div class="sessao1">
+                <h1>Motor</h1>
+                <img src="dist/motor1.gif" class="motor1">
+                <p class="textoMotor1">O motor do Toyota AE86 Trueno é um 4-cilindros em linha, 1.6 litros, capaz de produzir cerca de 130 cavalos de potência. <br>
+                    O segredo desse motor está em sua simplicidade e confiabilidade,tornando-o uma escolha popular para entusiastas de carros esportivos.<br>
+                    Sua configuração de tração traseira, juntamente com sua leveza, torna-o ágil nas curvas e responsivo nas mudanças de direção.<br>
+                    Combinado com uma transmissão manual de 6 marchas, o motor AE86 oferece uma experiência de direção emocionante e envolvente.
+                </p>
+            </div>
+            <div class="sessao2">
+                <img src="dist/motor2.gif" class="motor2">
+                <p class="textoMotor2"> Alem disso o motor do Toyota AE86 Trueno é famoso por sua capacidade de girar alto e manter sua potência em altas rotações.
+                Com um redline de cerca de 8.000 RPM, o motor AE86 é capaz de produzir um som distintivo e emocionante.
+                    Além disso, sua construção leve e compacta permite que o carro seja mais ágil nas curvas e em manobras de mudança de direção, proporcionando uma experiência de direção emocionante e envolvente.
+                    A simplicidade e confiabilidade do motor AE86 o tornam uma escolha popular para aqueles que desejam um carro esportivo com um desempenho impressionante e confiável.
+                </p>
+            </div>
+
+            <div class="ficha-tec">
+                <hr>
+                <button id="baixar-espec" class="btn btn-outline-light">Baixar a Ficha tecnica </button>
+                <hr>
+            </div>
+
+            <div class="fundo2">
+                <img src="dist/fundo2.gif" alt="GIF de fundo" id="gif-background2">
+            </div>
+            <hr>
+            <h1 class="titulo2">Design</h1>
+            <div class="designs">
+                <img class="design1" src="dist/design1.jpg">
+                <img class="design2" src="dist/design2.jpg">
+                <img class="design3" src="dist/design3.jpg">
+            </div>
+
+            <p class="texto-design">O Toyota A86, também conhecido como Corolla Levin e Sprinter Trueno, é um carro que se tornou icônico graças ao seu design esportivo e único. O design do A86 apresenta linhas elegantes e agressivas, com um capô curto e um perfil aerodinâmico que foi projetado para otimizar a velocidade e a performance do carro.
+            O estilo distintivo do A86 inclui faróis retráteis, que se escondem atrás da grade frontal quando não estão em uso, e uma carroceria esculpida com linhas musculosas que se estendem do para-choque dianteiro até a traseira do carro.
+            O carro também apresenta um spoiler traseiro discreto, que ajuda a melhorar a estabilidade em altas velocidades.
+
+            No interior, o A86 oferece um ambiente de cockpit que foi projetado para envolver o motorista e fornecer um controle preciso do carro. O painel de instrumentos é colocado de forma ergonômica, com marcadores de fácil leitura e botões e alavancas de controle ao alcance das mãos do motorista.
+            O Toyota A86 é um exemplo de como o design pode se tornar uma parte essencial da identidade de um carro. Com suas linhas elegantes e agressivas, o A86 é um carro que captura a imaginação dos entusiastas do automobilismo e continua sendo um dos modelos mais icônicos da Toyota até hoje.
+            </p>
+          </section>
+          
+        <section id="section3">
+            <h1> Seja notificado do lançamento </h1>
+            <div class="d-flex justify-content-center">
+                <form class="row g-3 form">
+                    <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Cidade</label>
+                    <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-6 row">
+                    <div class="col-md-6">
+                        <label for="inputState" class="form-label">Estado</label>
+                        <select id="inputState" class="form-select">
+                        <option selected>Escolha...</option>
+                        <option>MG</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 row">
+                        <label for="inputZip" class="form-label">CEP</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    </div>
+                    <div class="col-md-auto mt-3 row botao">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+              </form>
+            </div>
+              
+            
+         
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container py-3 justify-content-center">
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="contat">Contato</h3>
+              <p>E-mail: contato@a86trueno.com</p>
+              <p>Telefone: (11) 1234-5678</p>
+              <p>Endereço: Rua das Oliveiras, 123 - São Paulo/SP</p>
+            </div>
+            <div class="col-md-6">
+              <h3>Redes Sociais</h3>
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <p class="text-center">&copy; 2023 A86 Trueno - Todos os direitos reservados</p>
+        </div>
+    </footer>
+      
+</body>
+</html>
